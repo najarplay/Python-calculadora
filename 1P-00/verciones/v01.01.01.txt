@@ -1,0 +1,23 @@
+###################################################################
+IDENTIFICACIÓN:
+Serial: 1P-00-01.01.01
+Versión: 1.1.1
+
+CARACTERÍSTICAS: 1P-00
+- 1 - Interfaz de terminal.
+- P - Python puro.
+- 0 - Sin persistencia.
+- 0 - Sin conexiones externas.
+
+
+DESCRIPCIÓN: 1.1.1
+Primera versión estable de la calculadora.
+
+FUNCIONALIDADES:
+- Suma
+- Resta
+- Multiplicación
+- División
+- Potencia 
+
+####################################################################
