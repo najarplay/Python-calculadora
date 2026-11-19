@@ -1,0 +1,43 @@
+# IDENTIFICACIÓN
+
+**Serial:** 1P-00-01.02.01  
+**Versión:** 1.2.1  
+**Proyecto:** Calculadora 1P-00
+
+## CARACTERÍSTICAS
+
+- **1** — Interfaz de terminal.
+- **P** — Python puro.
+- **0** — Sin persistencia.
+- **0** — Sin conexiones externas.
+
+## DESCRIPCIÓN
+
+Primera evolución de la calculadora, desarrollada en una estructura monolítica, donde la lógica de las operaciones matemáticas y la ejecución del programa se encuentran integradas en un mismo bloque de código.
+
+Esta versión amplía las funcionalidades de la calculadora y establece una base para futuras mejoras.
+
+## FUNCIONALIDADES
+
+- Suma.
+- Resta.
+- Multiplicación.
+- División.
+- Potencia.
+- Operaciones matemáticas adicionales incorporadas en esta versión, según el código.
+
+## ARQUITECTURA
+
+- Estructura monolítica.
+- Programación orientada a objetos.
+- Ejecución mediante terminal.
+- Lógica matemática y flujo del programa integrados.
+
+## OBJETIVO DE LA VERSIÓN
+
+Ampliar las funciones de la calculadora y consolidar los conocimientos de Python y programación orientada a objetos antes de iniciar una reorganización modular del código.
+
+---
+
+**1P-00 — V01.02.01**  
+Calculadora monolítica.

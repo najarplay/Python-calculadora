@@ -1,0 +1,107 @@
+class MenuConsola:
+
+    def menu_principal(self):
+        print("\n" + "=" * 40)
+        print("       CALCULADORA PYTHON")
+        print("=" * 40)
+        print("1. Calculadora normal")
+        print("2. Calculadora científica")
+        print("0. Salir")
+        print("=" * 40)
+
+    def menu_normal(self):
+        print("\n" + "=" * 40)
+        print("       CALCULADORA NORMAL")
+        print("=" * 40)
+        print("2. Sumar")
+        print("3. Restar")
+        print("4. Multiplicar")
+        print("5. Dividir")
+        print("6. Módulo")
+        print("7. División entera")
+        print("-" * 40)
+        print("1. Cambiar calculadora")
+        print("0. Salir")
+        print("=" * 40)
+
+    def menu_cientifica(self):
+        print("\n" + "=" * 40)
+        print("     CALCULADORA CIENTÍFICA")
+        print("=" * 40)
+
+        print("\n--- ARITMÉTICA Y ÁLGEBRA ---")
+        print("2. Sumar")
+        print("3. Restar")
+        print("4. Multiplicar")
+        print("5. Dividir")
+        print("6. Módulo")
+        print("7. División entera")
+        print("8. Potencia")
+        print("9. Cuadrado")
+        print("10. Cubo")
+        print("11. Raíz cuadrada")
+        print("12. Raíz cúbica")
+        print("13. Raíz n")
+        print("14. Inverso")
+        print("15. Valor absoluto")
+        print("16. Redondear")
+        print("17. Truncar")
+        print("18. Techo")
+        print("19. Piso")
+
+        print("\n--- TRIGONOMETRÍA ---")
+        print("20. Seno")
+        print("21. Coseno")
+        print("22. Tangente")
+        print("23. Arcoseno")
+        print("24. Arcocoseno")
+        print("25. Arcotangente")
+
+        print("\n--- LOGARITMOS ---")
+        print("26. Logaritmo base 10")
+        print("27. Logaritmo natural")
+        print("28. Logaritmo base n")
+        print("29. Exponencial")
+        print("30. Potencia de 10")
+
+        print("\n--- COMBINATORIA ---")
+        print("31. Factorial")
+        print("32. Permutaciones")
+        print("33. Combinaciones")
+
+        print("\n--- CONSTANTES ---")
+        print("34. Pi")
+        print("35. Número de Euler")
+
+        print("\n--- ESTADÍSTICA ---")
+        print("36. Media")
+        print("37. Mediana")
+        print("38. Moda")
+        print("39. Varianza poblacional")
+        print("40. Varianza muestral")
+        print("41. Desviación estándar poblacional")
+        print("42. Desviación estándar muestral")
+        print("43. Sumatoria")
+
+        print("\n--- CONVERSIONES ANGULARES ---")
+        print("44. Grados a radianes")
+        print("45. Radianes a grados")
+        print("46. Grados a gradianes")
+        print("47. Gradianes a grados")
+        print("48. Radianes a gradianes")
+        print("49. Gradianes a radianes")
+
+        print("\n--- ALEATORIOS ---")
+        print("50. Número aleatorio")
+        print("51. Número entero aleatorio")
+
+        print("\n" + "-" * 40)
+        print("1. Cambiar calculadora")
+        print("0. Salir")
+        print("=" * 40)
+
+    def mostrar_resultado(self, resultado):
+        print("\nResultado:", resultado)
+
+    def mostrar_error(self, mensaje):
+        print("\nError:", mensaje)

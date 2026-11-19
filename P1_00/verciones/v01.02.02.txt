@@ -1,0 +1,148 @@
+# IDENTIFICACIÓN
+
+**Serial:** 1P-00-01.02.02  
+**Versión:** 1.2.2  
+**Proyecto:** Calculadora 1P-00
+
+## CARACTERÍSTICAS
+
+- **1** — Interfaz de terminal.
+- **P** — Python puro.
+- **0** — Sin persistencia.
+- **0** — Sin conexiones externas.
+
+## DESCRIPCIÓN
+
+Segunda evolución de la versión 1.2 de la calculadora.
+
+Se reorganiza el proyecto mediante una arquitectura modular y orientada a objetos, separando las operaciones matemáticas, la captura de datos, la presentación de menús, la ejecución de operaciones y la coordinación de la aplicación.
+
+El núcleo matemático se mantiene independiente de la interfaz de terminal, permitiendo reutilizar sus funcionalidades desde otras tecnologías o interfaces en futuras versiones.
+
+## FUNCIONALIDADES
+
+### Aritmética
+- Suma.
+- Resta.
+- Multiplicación.
+- División.
+- Módulo.
+- División entera.
+
+### Álgebra
+- Potencias.
+- Cuadrado.
+- Cubo.
+- Raíz cuadrada.
+- Raíz cúbica.
+- Raíz n.
+- Inverso.
+- Valor absoluto.
+- Redondeo.
+- Truncamiento.
+- Techo.
+- Piso.
+
+### Trigonometría
+- Seno.
+- Coseno.
+- Tangente.
+- Arcoseno.
+- Arcocoseno.
+- Arcotangente.
+- Funciones hiperbólicas.
+- Funciones hiperbólicas inversas.
+
+### Logaritmos
+- Logaritmo base 10.
+- Logaritmo natural.
+- Logaritmo de base n.
+- Exponencial.
+- Potencia de 10.
+
+### Combinatoria
+- Factorial.
+- Permutaciones.
+- Combinaciones.
+
+### Estadística
+- Media.
+- Mediana.
+- Moda.
+- Varianza poblacional.
+- Varianza muestral.
+- Desviación estándar poblacional.
+- Desviación estándar muestral.
+- Sumatoria.
+
+### Conversiones
+- Grados a radianes.
+- Radianes a grados.
+- Grados a gradianes.
+- Gradianes a grados.
+- Radianes a gradianes.
+- Gradianes a radianes.
+
+### Constantes
+- Pi.
+- Número de Euler.
+
+### Números aleatorios
+- Número aleatorio decimal.
+- Número aleatorio entero dentro de un intervalo.
+
+## ARQUITECTURA
+
+- Programación orientada a objetos.
+- Separación de responsabilidades.
+- Núcleo matemático modular.
+- Interfaz de terminal independiente.
+- Validación de entradas.
+- Manejo de excepciones.
+- Reutilización de clases y métodos.
+- Importación de módulos internos.
+
+## OBJETIVO DE LA VERSIÓN
+
+Establecer una arquitectura modular que permita ampliar, mantener y reutilizar el núcleo matemático de la calculadora sin depender de una interfaz específica.
+
+Esta estructura servirá como base para integrar futuras tecnologías, como Tkinter, Flask, APIs o Unity.
+
+---
+
+**1P-00 — V01.02.02**  
+Calculadora modular orientada a objetos.
+
+
+P1_00/
+│
+├── __init__.py
+│
+├── nucleo/
+│   ├── __init__.py
+│   ├── calculadora.py
+│   ├── cientifica.py
+│   │
+│   ├── x_aleatorios.py
+│   ├── x_algebra.py
+│   ├── x_aritmetica.py
+│   ├── x_combinatoria.py
+│   ├── x_configuracion.py
+│   ├── x_constantes.py
+│   ├── x_conversiones.py
+│   ├── x_estadistica.py
+│   ├── x_logaritmos.py
+│   └── x_trigonometria.py
+│
+├── consola_oop/
+│   ├── __init__.py
+│   ├── entrada.py
+│   ├── menu.py
+│   ├── ejecutor.py
+│   ├── aplicacion.py
+│   └── main.py
+│
+└── verciones/
+    ├── v01.01.01
+    ├── v01.02.01
+    └── v01.02.02
